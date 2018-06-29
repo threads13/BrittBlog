@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Navbar from './components/navbar';
-import Carousel from './components/carousel';
 import Pictures from './components/pictures';
 import Header from './components/header';
+import Body from './components/body';
 import './App.css';
 
 class App extends Component {
@@ -13,10 +12,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Navbar />
         <Header />
-        <Carousel />
-        <Pictures />
+        <Body />
       </div>
     );
   }

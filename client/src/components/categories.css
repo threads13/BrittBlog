@@ -1,0 +1,12 @@
+.categories {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navLinks {
+  margin-right: 20px;
+  font-family: "proxima-nova", sans-serif;
+  color: grey;
+  text-transform: uppercase;
+}

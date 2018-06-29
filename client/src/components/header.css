@@ -1,7 +1,23 @@
 .header {
-  font-size: 60px;
+  border-bottom: 1px solid grey;
+}
+
+.topBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
   font-family: 'Pacifico', cursive;
-  margin-left: 20px;
-  padding-bottom: 80px;
-  padding-top: 20px;
+  font-size: 50px;
+  text-transform: lowercase;
+}
+
+.bottomBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }

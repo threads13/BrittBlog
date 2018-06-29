@@ -1,10 +1,11 @@
 import React from 'react';
 import Picture from './picture';
+import './pictures.css';
 
 
 const Pictures = () => {
   return(
-    <div style={{textAlign: 'center'}} className="pictures">
+    <div className="pictures">
       <Picture className="picture" />
       <Picture className="picture" />
       <Picture className="picture" />
